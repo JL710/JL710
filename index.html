@@ -1,18 +1,102 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        h1 {
+            color: gray
+        }
+        .link_p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .span_1 {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .larger_image {
+            width: 500px
+        }
+
+        .smaller_image {
+            width: 100px;
+        }
+
+        .border_test {
+            border-color: red;
+            border-width: 5px;
+            border-style: solid
+        }
+
+        .border1 {
+            border-color: green;
+            border-width: 5px;
+            border-style: solid;
+            border-radius: 5px;
+        }
+
+        .border2 {
+            padding: 15px;
+            border-color: chocolate;
+            border-radius: 5px;
+            border-style: solid;
+        }
+
+        .background1 {
+            background-color: rgb(39, 39, 39);
+            color: aliceblue;
+        }
+
+        .div-box {
+            background-color: yellow;
+            border-style: solid;
+            border-width: 5px;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="That is the awsome Website. Mady by Jan">
-        <title>Jan's Website</title>
+        <title>Css tutorial</title>
     </head>
     <body>
-        <h1>Jans Website</h1>
-        <br/>                                                    <das ist einfach eine leer zeile>
-        <p>This is my paragraph</p>
-        <p>This is another <b>paragraph</b></p>
-        <hr/>                                                    <halt so ne linie halt>
-        <p>This is a third <i>paragraph</i></p>
-        <p>This is a fourth paragraph</p>
-        
+        <h1>Jan's Webpage</h1>
+        <p>Das hier ist ein simples beispiel um HTML und CSS zu Lernen.</p>
+        <p class="link_p">Das genutze Tutorial ist von <a href="https://www.youtube.com/watch?v=ieTHC78giGQ&t=291s">freeCodeCamp.org</a> </p>
+        <span class="span_1">Hier ist z.B. ein span direkt unter einem Paragraph. wird sich das kombinieren?</span>
+        <span> Okay, scheinbar nicht.</span>
+        <div>Das ist mein "div", es belegt die gante breite meiner Webpage</div>
+        <p>
+            Hier ein Link zu ner .zip <a href="IMG_0689.zip">download</a>
+        </p>
+        <p class="border_test">Wenn ich ne zip bei href="" angebe, wird sie also beim event gedownloadet</p>
+        <br/>
+        <img class="smaller_image" src="003-Und der Karpatenhund.jpg"/>
+        <p class="span_1 border_test">Css macht jka schon ein bischen spaß.</p>
+        <p class="border1">irgendwie machen klassen auch sinn, ich bin mir aber nicht ganz sicher in wie fer sie kongurieren können, also wenn man mehrere gleichzeitig verwendet</p>
+        <p class="border2">background von Footer änder klappt ja auch schon so halb</p>
+        <div class="div-box">
+            margin
+            <div style="background-color: red; border-style: solid; border-width: 5px; border-radius: 5px; padding: 20px; margin: 10px;">
+                pedding
+            </div>
+            <div style="background-color: blue; border-style: solid; border-width: 5px; border-radius: 5px; padding: 20px; margin: 15px;">
+                padding
+            </div>
+            <div style="background-color: red; border-style: solid; border-width: 5px; border-radius: 5px; padding: 20px; margin: -10px;">
+                pedding
+            </div>
+            <div style="background-color: blue; border-style: solid; border-width: 5px; border-radius: 5px; padding-top: 10px; margin: 15px;">
+                padding
+            </div>
+        </div>
     </body>
+    <br/><br/>
+        <hr/>
+    <footer class="background1">
+        <span>Das ist mein Footer.</span>
+        <div>Clicke <a href="index.html">hier</a> um die Seite neu zu Laden</div>
+    </footer>
 </html>
