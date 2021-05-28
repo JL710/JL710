@@ -1,0 +1,28 @@
+.font1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.box-design1 {
+    border-color: #495057;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #6C757D;
+    margin-bottom: 5px
+}
+
+.center_font {
+    text-align: center;
+}
+
+.link1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(71, 56, 56)
+}
+
+.ul1 {
+    list-style-type: "-   ";
+    font-family: Arial, Helvetica, sans-serif;
+}
+
