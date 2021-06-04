@@ -6,10 +6,11 @@
 .box-design1 {
     border-color: #495057;
     border-style: solid;
-    border-radius: 5px;
     padding: 5px;
+    border-radius: 5px;
     background-color: #6C757D;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    min-height: 2em;
 }
 
 .center_font {
@@ -18,7 +19,9 @@
 
 .link1 {
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(71, 56, 56)
+    font-size: 1em;
+    color:rgb(71, 56, 56);
+    transition: all 200ms;
 }
 
 .ul1 {
@@ -26,3 +29,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.hover1:hover {
+    font-size: 1.2em;
+}
