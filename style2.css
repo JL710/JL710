@@ -79,4 +79,12 @@ body {
     .hover1:hover {
         font-size: 1.1em;
     }
+
+    .hover2 {
+        transition: all 200ms;
+    }
+
+    .hover2:hover {
+        font-size: 2.2em;
+    }
 }
