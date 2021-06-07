@@ -72,6 +72,10 @@ body {
         margin-bottom: 1em;
     }
 
+    .padding2 {
+        padding-inline: 5%;
+    }
+
     .hover1 {
         transition: all 200ms;
     }
@@ -81,10 +85,17 @@ body {
     }
 
     .hover2 {
-        transition: all 800ms;
+        transition: all 600ms;
     }
 
     .hover2:hover {
         font-size: 2.2em;
     }
+
+    .titel1 {
+        display: inline-flex;
+        width: 100%;
+    }
+
+
 }
