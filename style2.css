@@ -94,12 +94,11 @@ body {
     }
 
     .hover2:hover {
-        transform: scale(1.1)
+        transform: scale(1.11)
     }
 
     .titel1 {
         display: inline-flex;
         width: 100%;
-        align-items: center;
-    }
+        align-items: center;    }
 }
