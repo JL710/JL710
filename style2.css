@@ -97,13 +97,11 @@ body {
     }
 
     .margin1:hover {
-        margin-top: 0.5em;
-        margin-bottom: 0.em;
+        margin-bottom: 0em;
     }
 
     .margin4:hover {
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
+        margin-bottom: 0em;
     }
     /* --------------- */
 
