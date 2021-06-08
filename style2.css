@@ -1,5 +1,7 @@
 body {
     background: #ffe52c;
+    margin: 0;
+    padding: 0.5em;
 }
 
 .padding1 {
@@ -95,6 +97,7 @@ body {
     .titel1 {
         display: inline-flex;
         width: 100%;
+        align-items: baseline;
     }
 
 
