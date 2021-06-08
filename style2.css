@@ -93,17 +93,8 @@ body {
     }
 
     .hover2:hover {
-        font-size: 2.2em;
+        transform: scale(1.1)
     }
-
-    .margin1:hover {
-        margin-bottom: 0em;
-    }
-
-    .margin4:hover {
-        margin-bottom: 0em;
-    }
-    /* --------------- */
 
     .titel1 {
         display: inline-flex;
