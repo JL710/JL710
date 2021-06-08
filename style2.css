@@ -100,8 +100,14 @@ body {
     .titel1 {
         display: inline-flex;
         width: 100%;
+        align-items: flex-end;
+    }
+}
+
+@media (min-width: 1187px) {
+    .titel1 {
+        display: inline-flex;
+        width: 100%;
         align-items: baseline;
     }
-
-
 }
