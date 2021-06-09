@@ -101,4 +101,8 @@ body {
         display: inline-flex;
         width: 100%;
         align-items: center;    }
+
+    .text-align1 {
+        text-align: center;
+    }
 }
