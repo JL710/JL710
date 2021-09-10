@@ -7,7 +7,9 @@
         <title>JL710 Documentation</title>
     </head>
     <body>
-        <div class="titlebar">JL710 Documentation</div>
+        <script src="documentation-home.js"></script>
+        <button id="upScrollButton" onclick="ScrollUp()">˄</button>
+        <div id="titlebar" class="titlebar">JL710 Documentation</div>
         <div id="flexcontainer1"> <!--aside tag works to-->
             <div class="margin1 divstyle1">
                 <ul class="liststyle1 font1">
@@ -23,6 +25,11 @@
                                 </ul>
                             </li>
                             <li><a href="#nav_template" class="fontcolor1">template</a></li>
+                            <li><a href="#nav_javascript" class="fontcolor1">javascript</a>
+                                <ul class="liststyle2">
+                                    <li><a href="#nav_stt" class="fontcolor1">scroll to top</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -53,10 +60,14 @@
                         <h3 id="nav_Tags">Tags</h3>
                         <p>
                             <h4 id="nav_list">list</h4>
-                            <p>comming soon</p><br/>
+                            <p>
+                                Es gibt verschiedene list Tags. &lt;ul&gt; ist eine unsortierte Liste, diese hat normaler weise einfache Punkte.
+                                Unterpunkte werden mit dem &lt;li&gt; Tag in einer &lt;ul&gt; defeniert. <br/>
+                                Mit list-style-type kann man das Symbol festlegen(z.B. none).
+                            </p><br/>
                             <h4 id="nav_aside">aside</h4>
                             <p>
-                                Heftet den "Content" an einen bestimmten Ort an. 
+                                Heftet den "Content" an einen bestimmten Ort an (z.B. an die Seite). 
                                 Dies eignet sich besonders gut für Inhaltsverzeichnisse. 
                                 Andere Objekte formen sich automatisch um den angehefteten Bereich an.
                                 <xmp class="code1">
@@ -83,6 +94,16 @@
     </body>
 </html>
                             </xmp>
+                        </p><br/>
+                        <h3 id="nav_javascript">javascript</h3>
+                        <p>
+                            <h4 id="nav_stt">scroll to top</h4>
+                            <p>
+                                <xmp class="code1">
+document.body.scrollTop = 0; // für Safari
+document.documentElement.scrollTop = 0; //für Chrome, Firefox, IE und Opera
+                                </xmp>
+                            </p>
                         </p><br/>
                     </p>
                     <hr/>

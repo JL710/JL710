@@ -23,6 +23,23 @@ body {
     margin: 0.5em;
 }
 
+/*UpScrollButton*/
+
+#upScrollButton {
+    position: fixed;
+    width: 1.5em;
+    height: 1.5em;
+    right: 1em;
+    bottom: 1em;
+    outline: none;
+    border: none;
+    border-radius: 0.4em;
+    background: #3a3939;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+/*Titlebar*/
+
 .titlebar {
     background-color: rgb(126, 126, 126);
     margin: 0.5em;
