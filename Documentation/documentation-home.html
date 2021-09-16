@@ -51,6 +51,12 @@
                     <li>
                         <a href="#nav_mk" class="fontcolor1">Markdown</a>
                     </li>
+                    <li>
+                        <a href="#nav_linux" class="fontcolor1">Linux/rpi</a>
+                        <ul class="liststyle2">
+                            <li><a href="#nav_linux_firewall" class="fontcolor1">Firewall</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div class="margin1 content1" style="flex: 1;">
@@ -129,12 +135,31 @@ document.documentElement.scrollTop = 0; //für Chrome, Firefox, IE und Opera
                     <hr/>
                     <h2 id="nav_mk">Markdown /.mk</h2><br/>
                     <p>comming soon</p>
+                    <hr/>
+                    <h2 id="nav_linux">Linux / rpi</h2><br/>
+                    <h3 id="nav_linux_firewall">Firewall</h3>
+                    <p>
+                        Die einfachste Firewall ist ufw.
+                        <div class="code1">sudo apt install ufw</div>
+                        ufw kann mit <span class="code2">sudo ufw enable</span> aktiviert und mit <span class="code2">sudo ufw disable</span> deaktiviert werden.
+                        <br/>
+                        Es ist wichtig zu wissen, dass man teils manuel Ports freigeben muss.
+                        <div class="code1">sudo ufw allow [port]</div>
+                        <div class="code1">sudo ufw deny [port]</div>
+                        Für den SSH port gibt es den Shortcut <span class="code2">sudo ufw allow ssh</span>.
+                        <br/><br/>
+                        Der Status der Firewall kann mit <span class="code2">sudo ufw status</span>.
+                        <br/><br/>
+                        Es ist auch möglich Regeln für spezifische IP-Adressen fest zu legen.
+                        <div class="code1">sudo ufw deny from 192.168.2.1 port 30</div>
+                        <a class="fontcolor2" href="https://www.raspberrypi.org/documentation/computers/configuration.html#install-a-firewall" target="_blank" rel="noopener noreferrer">Quelle / WeitereInformationen</a>
+                    </p>
                 </div>
             </div>
         </div>
         <br/>
         <div class="footer font1">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScHN9zvU7sGe60am_BsKkeqQXivAASdTXUct4R_QBI0_ocV4A/viewform?usp=sf_link"  target="_blank" rel="noopener noreferrer" class="fontcolor1">Informationen hinzufügen</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScHN9zvU7sGe60am_BsKkeqQXivAASdTXUct4R_QBI0_ocV4A/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class="fontcolor1">Informationen hinzufügen</a>
         </div>
     </body>
 </html>
