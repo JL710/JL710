@@ -156,13 +156,35 @@ document.documentElement.scrollTop = 0; //für Chrome, Firefox, IE und Opera
                         <a class="fontcolor2" href="https://www.raspberrypi.org/documentation/computers/configuration.html#install-a-firewall" target="_blank" rel="noopener noreferrer">Quelle / WeitereInformationen</a>
                     </p>
                     <h3 id="nav_linux_befehle">Standard Befehle</h3>
-                    <span class="code3">ls</span> listet alle Dateien und Ordner im aktuellen Verzeichnis auf<br/>
-                    <span class="code3">cd [Pfad]</span> geht in das vom Pfad angegebene Verzeichnis<br/>
-                    <span class="code3">htop</span> Taskmanager<br/>
-                    <span class="code3">mkdir [Name]</span> Erstellt das Verzeichnis "Name"<br/>
-                    <span class="code3">rm [File]</span> löscht das [File]<br/>
-                    <span class="code3">rmdir [Verzeichnis]</span> löscht das [Verzeichnis], solage es leer ist<br/>
-                    <span class="code3">rm -r [Verzeichnis]</span> löscht das gefüllte Verzeichnis [Verzeichnis]<br/>
+                    <p>
+                       <span class="code3">ls</span> listet alle Dateien und Ordner im aktuellen Verzeichnis auf<br/>
+                        <span class="code3">cd [Pfad]</span> geht in das vom Pfad angegebene Verzeichnis<br/>
+                        <span class="code3">htop</span> Taskmanager<br/>
+                        <span class="code3">mkdir [Name]</span> Erstellt das Verzeichnis "Name"<br/>
+                        <span class="code3">rm [File]</span> löscht das [File]<br/>
+                        <span class="code3">rmdir [Verzeichnis]</span> löscht das [Verzeichnis], solage es leer ist<br/>
+                        <span class="code3">rm -r [Verzeichnis]</span> löscht das gefüllte Verzeichnis [Verzeichnis]<br/> 
+                    </p>
+                    <hr/>
+                    <h2>Docker</h2><br/>
+                    <p>
+                        <xmp class="code1">
+docker ps -a                # Lists containers (and tells you which images they are spun from)
+
+docker images               # Lists images 
+
+docker rm <container_id>    # Removes a stopped container
+
+docker rm -f <container_id> # Forces the removal of a running container (uses SIGKILL)
+
+docker rmi <image_id>       # Removes an image 
+                            # Will fail if there is a running instance of that image i.e. container
+
+docker rmi -f <image_id>    # Forces removal of image even if it is referenced in multiple repositories, 
+                            # i.e. same image id given multiple names/tags 
+                            # Will still fail if there is a docker container referencing image
+                        </xmp>
+                    </p>
                 </div>
             </div>
         </div>
