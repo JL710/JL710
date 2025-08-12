@@ -1,6 +1,6 @@
 # JL710
 
-
+Hi there, you can also find some of be code on my [codeberg profile](https://codeberg.org/JL710).
 
 [![Zocky710's GitHub stats](https://github-readme-stats.vercel.app/api?username=JL710)](https://github.com/JL710/github-readme-stats)
 
